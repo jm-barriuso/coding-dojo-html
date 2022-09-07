@@ -24,6 +24,9 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+.nav-left{
+    display: flex;
+}
 h1{
     margin: 0 10px 0 0;
 }
@@ -40,7 +43,7 @@ ul li{
 }
 
 ul li a{
-    padding: 0 16px 0 0;
+    padding: 0 10px 0 0;
     text-decoration: none;
     margin: 4px;
 }
