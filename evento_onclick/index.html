@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento onClick</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Dojonary</h1>
+        <input type="text" placeholder="search">
+        <button onclick="turnLogOut(this)">Login</button>
+    </header>
+    <main>
+        <div class="col-1">
+            <div class="box">
+                <div class="box-left">
+                    <h1>Ninja</h1>
+                    <h4>noun</h4>
+                    <h5>Plural: <span>ninjas</span></h5> 
+                    <button class="button-like" id="button-1" onclick="sendAlert()">13 likes</button>
+                </div>
+                <diva class="box-rigth">
+                    <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                </div>
+                <div class="box">
+                    <div class="box-left">
+                        <h1>Ninja</h1>
+                        <h4>noun</h4>
+                        <h5>Plural: <span>ninjas</span></h5> 
+                        <button class="button-like" id="button-2" onclick="sendAlert()">37 likes</button>
+                    </div>
+                    <div class="box-rigth">
+                        <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="box-2">
+                    <p>Dojonay is defined by YOU</p>
+                    <button class="button-definition" id="button-3" onclick="removeButton(this)">Add Definition</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

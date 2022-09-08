@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 740px;
+    margin: 0 auto 30px;
+}
+
+header input{
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+main{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+h4, span{
+    font-style: italic;
+}
+
+header button{
+    background-color: cornflowerblue;
+    color: white;
+    width: 70px;
+    height: 25px;
+    border-style: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px black;
+}
+
+.col-1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box, .box-2{
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.box{
+    display: flex;
+    gap: 15px;
+}
+
+.box-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.box-rigth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-like{
+    padding: 2px 15px;
+    background-color:gold;
+    border-style: none;
+    border: 1px solid black;
+    border-radius: 2px;
+    box-shadow: 2px 2px black;
+}
+.box-2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button-definition{
+    background-color: #93C47D;
+    border-style: none;
+    border: 1px solid black;
+    box-shadow: 2px 2px black;
+}
