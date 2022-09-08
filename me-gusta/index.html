@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me gusta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Network</h1>
+
+    <div class="container">
+        <div class="col-1">
+            <div class="box">
+                <img src="/assets/user-circle.png" alt="foto perfil">
+                <a href="#">Add an avatar</a>
+                <h2>James Doe</h2>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="box">
+                <div class="box-up">
+                    <h2>Neil M</h2>
+                    <div class="like">
+                        <h3 id="like-counter-0">0 like(s)</h3>
+                        <button onclick="addLike(0)">like</button>
+                    </div>
+                </div>
+                <div class="box-down">
+                    <p>I just set up this new discord bot, 
+                    let me know what you all thnki. 
+                    <a href="#">link</a></p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-up">
+                    <h2>Nichole K</h2>
+                    <div class="like">
+                        <h3 id="like-counter-1">0 like(s)</h3>
+                        <button onclick="addLike(1)">like</button>
+                    </div>
+                </div>
+                <div class="box-down">
+                    <p>Just finished my <a href="#">next comic</a>, 
+                    check it out</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-up">
+                    <h2>Jim R</h2>
+                    <div class="like">
+                        <h3 id="like-counter-2">0 like(s)</h3>
+                        <button onclick="addLike(2)">like</button>
+                    </div>
+                </div>
+                <div class="box-down">
+                    <p>I can't stop listening to the <a href="#">new album</a>.
+                    Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
