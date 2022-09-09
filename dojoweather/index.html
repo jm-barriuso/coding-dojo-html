@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <h1>DojoWeather</h1>
+        <ul>
+            <li onclick="alert('Cargando informe meteorológico…')">Burbank</li>
+            <li onclick="alert('Cargando informe meteorológico…')">Chicago</li>
+            <li onclick="alert('Cargando informe meteorológico…')">Dallas</li>
+        </ul>
+    </nav>
+    <main>
+        <header>
+            <h2>San Jose</h2>
+            <div class="convert-tempertures">
+                <label >show temperature in</label>
+                <select name="select-scale" onchange="changeScale(this)">
+                    <option>ºC</option>
+                    <option>ºF</option>
+                </select>
+            </div>
+        </header>
+        <div class="container">
+            <div class="box">
+                <h3>Today</h3>
+                <img src="/assets/some_rain.png" alt="some rain">
+                <p>some rain</p>
+                <div class="temp">
+                    <p class="max-temp"><span id="temp-value-0">24</span>º</p>
+                    <p class="min-temp"><span id="temp-value-1">18</span>º</p>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Tomorrow</h3>
+                <img src="/assets/some_sun.png" alt="sunny">
+                <p>some sun</p>
+                <div class="temp">
+                    <p class="max-temp"><span id="temp-value-2">27</span>º</p>
+                    <p class="min-temp"><span id="temp-value-3">19</span>º</p>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Friday</h3>
+                <img src="/assets/some_rain.png" alt="some rain">
+                <p>some rain</p>
+                <div class="temp">
+                    <p class="max-temp"><span id="temp-value-4">21</span>º</p>
+                    <p class="min-temp"><span id="temp-value-5">16</span>º</p>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Saturday</h3>
+                <img src="/assets/some_sun.png" alt="sunny">
+                <p>some sun</p>
+                <div class="temp">
+                    <p class="max-temp"><span id="temp-value-6">26</span>º</p>
+                    <p class="min-temp"><span id="temp-value-7">21</span>º</p>
+                </div>
+            </div>
+        </div>
+        <div class="cookies">
+            <img src="/assets/cookie.png" alt="cookies">
+            <div class="message">
+                <h3>Stop! Cookie time</h3>
+                <p>We use cookies (sadly not the edible ones) to personalize content
+                    and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a>
+                </p>
+            </div>
+            <button onclick="remove(this)">I Accept</button>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

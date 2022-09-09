@@ -16,6 +16,4 @@ function removeRequest(e,request){
     }
     badgeMinus.innerText --;
     console.log(request);
-
-
 }
